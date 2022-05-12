@@ -1,0 +1,240 @@
+                /*CSS PHP Index*/
+
+
+body {
+
+    background-image: url(/photo/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #333;
+    margin: 0;
+    padding: 0;  
+}
+
+
+                /*Menu Site*/
+
+.var_block_menu {
+    position: relative;
+	  left: 0px;
+    background-color:#4C4E7F;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C4E7F;
+	  width: 1428px;
+	  height: 100px; 
+    box-sizing: border-box;
+}
+
+.var_position_menu {
+
+    position: relative;
+    left: 208px;
+	  bottom: 195px;
+	  width: 980px;
+    height: 0px;
+	  box-sizing: border-box;
+	  
+}
+
+
+nav.primary-navigation {
+	margin: 0 auto;
+	display: block;
+	padding: 120px 0 0 0;
+	text-align: center;
+	font-size: 16px;
+}
+nav.primary-navigation ul li {
+	list-style: none;
+	margin: 0 auto;
+	border-left: 3px solid #3ca0e7;   /*Cor das barras do menu*/
+	display: inline-block;
+	padding: 0 55px;           /*0 aumenta as barras do menu e o 30px aumenta o espaçamento entre as palvras do menu*/
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Big Shoulders Stencil Display', cursive;   /*Fonte Do Google*/
+}
+nav.primary-navigation li a {
+	color: #fff;           /*Cor das palavras*/
+}
+nav.primary-navigation li a:hover {
+	color: #3ca0e7;        /*Cor de Hover*/
+}
+nav.primary-navigation li:hover {
+	cursor: pointer;
+}
+nav.primary-navigation ul li ul {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	padding-left: 0;       /*Aumenta o quadro depois que passa o mouse no menu*/
+	left: 0;
+	display: none;
+	background: #4C4E7F;    /*Cor de fundo depois que passa o mouse em cima*/
+	z-index:99;     /*Este comando faz com que um item sobreponha o outro. No caso o submenu sobrepondo o resto do site*/
+}
+nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
+	visibility: visible;
+	opacity: 1;								
+	display: block;
+	min-width: 250px;                    /*Tamanho do quadrado quando passa o mouse em cima da pra aumentar colocando inclusive o min-height*/
+	text-align: left;
+	padding-top: 15px;                      /*O quão longe fica o text dentro do submenu com relação ao menu principal*/
+	box-shadow: 0px 3px 20px -1px #4C4E7F;         /*5px esfuma  -1px controla a borda da cor maior ou menor */
+}
+nav.primary-navigation ul li ul li {
+	clear: both;
+	width: 100%;
+	text-align: left;                     /*Através do 	position: relative você consegue movimentar o texto dentro do quadrado quando passa o mouse em cima*/
+	margin-bottom: 20px;
+	border-style: none;
+}
+nav.primary-navigation ul li ul li a:hover {
+	padding-left: 10px;
+	border-left: 2px solid #3ca0e7;       /*É a cor da borda left dentro do submenu*/
+	transition: all 0.3s ease;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #3ca0e7;
+}
+ul li ul li a {
+	transition: all 0.5s ease;
+}
+
+
+
+
+                /*Image Site*/
+
+
+.var_img_1 {
+
+    position: relative;
+    left: 350px;
+	top: 100px;
+    width: 700px;
+    height: 500px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #5E6091;
+	border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+	border-bottom-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+	
+	         /*Effect for image*/
+    -webkit-transition:all 0.5s linear;     /*webkit é utilzado em navegadores chrome e safari na frente o nome -webkit-transition or -webkit-box-shadown*/
+    -moz-transition:all 0.5s linear;        /*moz para mozilla exemplo -moz-transition -moz-box-shadow */
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+}
+
+.var_img_1:hover {
+
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.02);
+ 
+}
+
+.var_img_2 {
+
+    position: relative;
+    bottom: 525px;
+	  right: 680px;
+	  height: 50px;
+	  width:  100px;
+
+}
+
+
+
+
+/*Headers CSS*/
+
+
+.var_h1_position {
+
+    position: relative;
+    right: 80px;
+}
+
+.var_h1{
+    position: relative;
+	  left: 730px;
+	  top: 100px;
+    font-family: 'Bebas Neue', serif;
+	  font-size: 60px;
+    color: #fff;
+		width: 150px;
+	  box-sizing: border-box;
+	   
+}
+
+.var_h1_h1{
+	
+	position: relative;
+	left: 490px;
+	top: 60px;
+	font-family: 'Bebas Neue', serif;
+	color: #fff;
+	width: 650px;
+	box-sizing: border-box;
+	
+	
+}
+
+
+/*Text*/
+
+.var_p{
+    
+	  position: relative;
+	  top: 80px;
+	  right: 100px;
+    font-family: cursive;
+    font-size: 20px;
+	  text-align: center;
+	  margin-left: 400px;
+	  margin-right: 200px;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

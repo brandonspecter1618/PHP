@@ -1,0 +1,41 @@
+/***************************************Responsive Media 1920x1080**********************************************/
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+
+
+    .var_block_menu {
+        position: relative;
+        left: 0px;
+        background-color:#4C4E7F;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #4C4E7F;
+        margin: auto;
+        width: 1890px;
+        height: 100px; 
+        box-sizing: border-box;
+    }
+
+
+    .position_menu {
+        margin-left: 300px;
+        bottom: 195px;
+        width: 780px;
+        height: 0px;
+        border: 5px solid red;
+        background-color: red;
+        box-sizing: border-box;
+    }
+    
+}
+
+const showData = (result) => {
+
+
+    for(campo in result){
+        if(document.querySelector("#"+campo)){
+
+            let dados1 = document.querySelector("#"+campo).value = result[campo];
+        }
+    }
+}

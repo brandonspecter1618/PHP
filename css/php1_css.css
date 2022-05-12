@@ -1,0 +1,190 @@
+                /*CSS PHP Index*/
+
+
+body {
+
+    background-image: url(../../photo/2.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color: #333;
+    margin: 0;
+    padding: 0;  
+}
+
+
+                /*Menu Site*/
+
+.var_block_menu {
+    position: relative;
+	  left: 0px;
+    background-color:#4C4E7F;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C4E7F;
+    margin: auto;
+	  width: 1428px;
+	  height: 100px; 
+    box-sizing: border-box;
+}
+
+.position_menu {
+
+    position: relative;
+    left: 208px;
+	  bottom: 195px;
+	  width: 980px;
+    height: 0px;
+	  box-sizing: border-box;
+	  
+}
+
+
+nav.primary-navigation {
+	margin: 0 auto;
+	display: block;
+	padding: 120px 0 0 0;
+	text-align: center;
+	font-size: 16px;
+}
+nav.primary-navigation ul li {
+	list-style: none;
+	margin: 0 auto;
+	border-left: 3px solid #3ca0e7;   /*Cor das barras do menu*/
+	display: inline-block;
+	padding: 0 55px;           /*0 aumenta as barras do menu e o 30px aumenta o espaçamento entre as palvras do menu*/
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Big Shoulders Stencil Display', cursive;   /*Fonte Do Google*/
+}
+nav.primary-navigation li a {
+	color: #fff;           /*Cor das palavras*/
+}
+nav.primary-navigation li a:hover {
+	color: #3ca0e7;        /*Cor de Hover*/
+}
+nav.primary-navigation li:hover {
+	cursor: pointer;
+}
+nav.primary-navigation ul li ul {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	padding-left: 0;       /*Aumenta o quadro depois que passa o mouse no menu*/
+	left: 0;
+	display: none;
+	background: #4C4E7F;    /*Cor de fundo depois que passa o mouse em cima*/
+	z-index:99;     /*Este comando faz com que um item sobreponha o outro. No caso o submenu sobrepondo o resto do site*/
+}
+nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
+	visibility: visible;
+	opacity: 1;								
+	display: block;
+	min-width: 250px;                    /*Tamanho do quadrado quando passa o mouse em cima da pra aumentar colocando inclusive o min-height*/
+	text-align: left;
+	padding-top: 15px;                      /*O quão longe fica o text dentro do submenu com relação ao menu principal*/
+	box-shadow: 0px 3px 20px -1px #4C4E7F;         /*5px esfuma  -1px controla a borda da cor maior ou menor */
+}
+nav.primary-navigation ul li ul li {
+	clear: both;
+	width: 100%;
+	text-align: left;                     /*Através do 	position: relative você consegue movimentar o texto dentro do quadrado quando passa o mouse em cima*/
+	margin-bottom: 20px;
+	border-style: none;
+}
+nav.primary-navigation ul li ul li a:hover {
+	padding-left: 10px;
+	border-left: 2px solid #3ca0e7;       /*É a cor da borda left dentro do submenu*/
+	transition: all 0.3s ease;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #3ca0e7;
+}
+ul li ul li a {
+	transition: all 0.5s ease;
+}
+
+/*Button JS CSS*/
+
+.var_1button {          /*With the Letter "A" */
+    position: relative;
+    left: 10px;
+    top:100px;
+    border-top: 1px solid #96d1f8;
+    background: #7265d4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#333785), to(#7265d4));
+    background: -webkit-linear-gradient(top, #333785, #7265d4);
+    background: -moz-linear-gradient(top, #333785, #7265d4);
+    background: -ms-linear-gradient(top, #333785, #7265d4);
+    background: -o-linear-gradient(top, #333785, #7265d4);
+    padding: 14.5px 29px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .var_1button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+    }
+ .var_1button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+
+
+/*CSS Javascript*/
+
+.var_p {
+    margin-top: 200px;
+    margin-left: 10px;
+    width: 800px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+input[type=text] {
+    position: relative;
+    right: 140px;
+    width: 220px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+ .projectCss{
+     margin-top: -50px;
+    
+}
+
+
+ /***************************************************************/
+
+ .links{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+

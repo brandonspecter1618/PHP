@@ -1,0 +1,42 @@
+<CLIENT__CONFIGURATION>
+  <installations>
+    <INSTALLATION>
+      <name>AGU 1</name>
+      <address>10.61.11.4</address>
+      <port>8080</port>
+      <username>Installer</username>
+      <password>COMAP</password>
+      <rememberPassword>true</rememberPassword>
+      <useProxy>false</useProxy>
+    </INSTALLATION>
+    <INSTALLATION>
+      <name>AGU 2</name>
+      <address>10.61.11.5</address>
+      <port>8080</port>
+      <username>Installer</username>
+      <password>COMAP</password>
+      <rememberPassword>true</rememberPassword>
+      <useProxy>false</useProxy>
+    </INSTALLATION>
+  </installations>
+  <proxySettings>
+    <port>0</port>
+  </proxySettings>
+  <languageSettings>
+    <language>5</language>
+    <time>10</time>
+    <rememberLast>true</rememberLast>
+  </languageSettings>
+  <compatibilitySettings>
+    <ErrorLogPath></ErrorLogPath>
+    <HistoricalPath></HistoricalPath>
+    <PowerPath></PowerPath>
+    <ErrorLogActive>false</ErrorLogActive>
+    <HistoricalActive>false</HistoricalActive>
+    <PowerActive>false</PowerActive>
+    <HistoricalVersion>0</HistoricalVersion>
+    <ErrorVersion>0</ErrorVersion>
+    <PowerVersion>0</PowerVersion>
+  </compatibilitySettings>
+  <lastInstallation>0</lastInstallation>
+</CLIENT__CONFIGURATION>
